@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="android-chrome-512x512.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3r Corte Laser</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagem/3r.png" alt="imagem_logo.png">
+        </div>
+        <div class="contato">
+            <p>(11) 2024-8828</p>
+            <p>(11) 98162-6475</p>
+            <p>R. Maria Ortiz, 53  </p>
+            <p>Santo André -SP</p>
+            <p>Bairro: Campestre</p>
+            <p>CEP: 09070-270</p>
+           
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="localizacao.html">Localização</a>
+            <a href="orcamento.html">Orçamento</a>
+            <a style="color:#063d1e;text-decoration: underline;background-color: #3ddc84; border-radius: 20px;" href="calculadora.html">Calculadora</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+        <nav class="mobile"onclick="btn()">
+            <div class="menu">
+            <div class="m">-</div>
+            <div class="m">-</div>
+            <div class="m">-</div>
+        </div>
+        
+        <div class="mobile_nav">
+            <a href="index.html">Home</a>
+            <a href="localizacao.html">Localização</a>
+            <a href="orcamento.html">Orçamento</a>
+            <a style="color:#063d1e;text-decoration: underline;background-color: #3ddc84; border-radius: 20px;"  href="calculadora.html">Calculadora</a>
+            <a href="contato.html">Contato</a>
+        </div>
+     
+        </nav>
+    
+    </header>
+    
+ 
+        <div class="Calculadora">
+        
+              <form>
+                 
+                 <h2>Calculadora De Peso Chapa</h2>
+                 <span><input type='radio'  name='radsex' id="carbo" checked/>Carbono</span>
+                 <span><input type='radio' name='radsex' id="inox" />Inox</span>
+                 <span><input type='radio' name='radsex'id="alu" />Alumínio</span>
+        
+                <p> Espessura: <input type= 'number'placeholder='mm' min= '0'id="esp" /> </p>
+                <p> Largura: <input type= 'number' placeholder='mm' min= '0' id="lar" /> </p>
+                <p> Comprimento: <input placeholder='mm'type= 'number' min= '0'  id="comp" /> </p>
+               <p><input id ='btn' type= 'button' value= 'Calcular ' onclick="calcular()"/></p> 
+        </form>
+        <div class='res'>
+           <h2 class='pesopc'></h2>
+        </div>
+        </div>
+        
+        
+         
+
+
+<footer>
+  <h1>Contate-nos!</h1>
+ <p><a  target='_blank'href='https://wa.me/5511981626475'><img src="imagem/Dtafalonso-Android-L-WhatsApp.512.png" alt="whatsapp"> CLICK Agora e Fale Conosco </a>
+ </p> 
+    
+    <div class="footer">
+        <p>3r Laser - Corte a laser | Todos os direitos reservados © 2023</p>
+       
+    </div>
+</footer>
+
+
+<script defer src="js/script.js"></script>
+</body>
+</html>
